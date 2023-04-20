@@ -1,5 +1,3 @@
-Sure, here's a basic README.md file you can use as a starting point:
-
 # Sentiment Analysis Webhook
 
 This is a webhook for performing sentiment analysis on user input using a pre-trained Naive Bayes model.
