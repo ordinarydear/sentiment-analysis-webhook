@@ -16,15 +16,7 @@ This webhook requires Python 3.x and the following Python libraries:
 
 1. Clone this repository
 2. Install the required Python libraries using pip: `pip install flask joblib nltk`
-3. Download the required NLTK data by running the following commands:
-
-```
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-```
-
-4. Start the Flask app by running `python app.py`
+3. Start the Flask app by running `python app.py`
 
 ## Usage
 
