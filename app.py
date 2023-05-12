@@ -44,9 +44,7 @@ def predict_sentiment():
     # Predict sentiment using the loaded model
     sentiment = model.predict(user_input_vectorized)
     # Return the predicted sentiment to Dialogflow
-    return jsonify({
-    'fulfillmentText': 'The sentiment is ' + str(sentiment[0])
-    })
+    return str(sentiment[0])
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
